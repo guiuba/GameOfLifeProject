@@ -4,7 +4,7 @@ This is my Implementation of Game of Life, a JetBrains Academy project Stage 5 /
 
 Frame below depicts how program works:
 
-
+![gameOfLifeProv](https://user-images.githubusercontent.com/69851038/117060330-2ace6100-acf7-11eb-8aa1-e797ae029cf9.jpg)
 
 --------------------------------------------------------------
 My code:
