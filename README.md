@@ -2,14 +2,20 @@
 /* This is my Implementation of Game of Life, a JetBrains Academy project Stage 5 / 5. About:
 "Get firsthand experience of creating a small inhabited universe and observe the many patterns in which this “life” can evolve. Generation by generation, watch the cells come and go, reacting to their environment, perishing from loneliness or finding comfort in company. In this project, you will write a simple “Game of Life”, a classic toy for programmers to entertain and educate themselves. Careful: might be hypnotizing!" */
 
+Frame below depicts how program works:
 
+![image](https://user-images.githubusercontent.com/69851038/117053682-a0363380-acef-11eb-9fc0-342856348073.png)
 --------------------------------------------------------------
 My code:
+
 import java.awt.BorderLayout;
+
 import java.util.Queue;
+
 import javax.swing.JFrame;
 
 public class GameOfLife extends JFrame {
+
     static ControlPanel controlPanel;
     static GenerationPanel generationPanel;
     static GameOfLifeAlgo gl = new GameOfLifeAlgo();
@@ -37,7 +43,7 @@ public class GameOfLife extends JFrame {
         setVisible(true);
     }
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException { 
         new GameOfLife();
         runIt();
     }
