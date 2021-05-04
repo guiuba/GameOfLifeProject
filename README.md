@@ -94,10 +94,11 @@ public class GameOfLife extends JFrame {
 
 
 }
-src/life/GameOfLifeAlgo.java
-package life;
+
 import java.util.LinkedList;
+
 import java.util.Queue;
+
 import java.util.Random;
 
 class GameOfLifeAlgo {
@@ -165,14 +166,19 @@ class GameOfLifeAlgo {
         return aliveNeighbors;
     }
 }
-src/life/ControlPanel.java
-package life;
+
 import java.awt.*;
+
 import java.awt.event.ActionEvent;
+
 import java.awt.event.ActionListener;
+
 import java.util.Hashtable;
+
 import javax.swing.*;
+
 import javax.swing.event.ChangeEvent;
+
 import javax.swing.event.ChangeListener;
 
 import java.awt.Dimension;
@@ -272,12 +278,15 @@ public class ControlPanel extends JPanel implements ActionListener, ChangeListen
         evolutionSpeed  =  evolutionSpeedSlider.getValue();
     }
 }
-src/life/GenerationPanel.java
-package life;
+
 import java.awt.Color;
+
 import java.awt.GridLayout;
+
 import javax.swing.JLabel;
+
 import javax.swing.JPanel;
+
 public class GenerationPanel extends JPanel {
     static JLabel[][] labels;
 
